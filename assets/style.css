@@ -1,0 +1,17 @@
+@media only screen and (min-width: 768px) {
+    iframe{
+      height: 13em;
+
+    }
+
+    .card{
+      width: auto;
+      margin: 50px;
+      padding: 10px;
+
+    }
+  }
+
+  /* .card-group{
+    
+  } */
