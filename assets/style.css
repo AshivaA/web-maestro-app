@@ -2,25 +2,24 @@
   border-bottom: 2px solid grey;
 }
 
-.navbar-brand, .nav-item {
+.navbar-brand,
+.nav-item {
   transition: box-shadow 0.6s ease;
 }
 
-.navbar-brand:hover, .nav-item:hover {
+.navbar-brand:hover,
+.nav-item:hover {
   box-shadow: 0 -2px black inset;
 }
 
 @media only screen and (min-width: 768px) {
-    iframe{
-      height: 13em;
-
-    }
-
-    .card{
-      width: auto;
-      margin: 10px;
-      padding: 10px;
-
-    }
+  iframe {
+    height: 13em;
   }
 
+  .card {
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+  }
+}
