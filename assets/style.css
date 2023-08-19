@@ -17,14 +17,12 @@
     height: 13em;
   }
 
-<<<<<<< HEAD
   .card {
     width: auto;
     margin: 10px;
     padding: 10px;
   }
 }
-=======
 footer {
   position: fixed;
   left: 0;
@@ -40,7 +38,6 @@ footer {
   border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
-  /* .card-group{
-    
-  } */
->>>>>>> f7207a85f6fb98cc3046e03abf8e55b98d11bd1c
+h1, h2{
+  margin-top: 100px;
+}
