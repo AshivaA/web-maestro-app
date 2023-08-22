@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Learn HTML easily by following videos displayed on the Web Maestro app Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home Page of the web Maestro app</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body>
+  <body class="hero-body">
       <!-- navigation bar-->
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
@@ -64,445 +64,181 @@
           </div>
         </div>
       </nav>
+
+        
     <div class="container">
-
-
-      <!-- welcome to html to html -->
+      <!-- the main welcome heading -->
       <div class="row">
-        <div class="col"><h1>Welcome to HTML</h1></div>
-      </div>
-
-      <!-- introduction to html -->
-      <div class="sections">
-      <div class="row">
-        <div class="col"><h2>Introduction to HTML</h2></div>
-      </div>
-            <!-- Introduction to HTML - Web Dev Simplified -->
-      <div class="row">
-        <div class="col col-3">
-          <div class="card">
-            <iframe
-              src="https://www.youtube.com/embed/BvJYXl2ywUE"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <div class="card-body">
-              <h5 class="card-title">Introduction to HTML</h5>
-              <h6 class="card-subtitle">Web Dev Simplified</h6>
-            </div>
-          </div>
-        </div>
-            <!-- What is HTML? - Kevin Powell -->
-        <div class="col col-3">
-          <div class="card">
-            <iframe
-              src="https://www.youtube.com/embed/LGQuIIv2RVA"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <div class="card-body">
-              <h5 class="card-title">What is HTML?</h5>
-              <h6 class="card-subtitle">Kevin Powell</h6>              
-            </div>
-          </div>
-        </div>
-            <!-- Intro to HTML - Net Ninja -->
-        <div class="col col-3">
-          <div class="card">
-            <iframe
-              src="https://www.youtube.com/embed/Y1BlT4_c_SU"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <div class="card-body">
-              <h5 class="card-title">Intro to HTML</h5>
-              <h6 class="card-subtitle">Net Ninja</h6>              
-            </div>
-          </div>
-        </div>
-              <!-- What is HTML - Net Ninja -->
-        <div class="col col-3">
-          <div class="card">
-            <iframe
-              src="https://www.youtube.com/embed/cZCq8lQ-vZ0"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <div class="card-body">
-              <h5 class="card-title">What is HTML</h5>
-              <h6 class="card-subtitle">Net Ninja</h6>              
-            </div>
-          </div>
+        <div class="col">
+          <h1>WELCOME TO THE UNIVERSITY OF BIRMINGHAM</h1>
+          <h3 class="bootcamp">SKILLS BOOTCAMP/UX</h3>
+          <h2 class="web-m">Web Maestro Learning App</h2>
         </div>
       </div>
-    </div>
 
+      <!-- here, the user clicks on a button that takes them to the learning styles options modal -->
 
-        <!-- the html document -->
-        <div class="sections">
-        <div class="row">
-          <div class="col"><h2>The HTML Document</h2></div>
+      <div class="row row-hero">
+        <div class="col col-6">
+          <h3 class="learning-style">To Select Preffered Learning Style</h3>
+
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-light"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Click here
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title fs-5" id="exampleModalLabel">
+                    Learning Styles:
+                  </h3>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <!-- form inside the modal -->
+                  <div class="form-check form-switch">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="content"
+                    />
+                    <label class="form-check-label" for="content"
+                      >Audio/Visual Learning</label
+                    >
+                  </div>
+
+                  <div class="form-check form-switch">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="content"
+                    />
+                    <label class="form-check-label" for="content"
+                      >Practical Learning</label
+                    >
+                  </div>
+
+                  <div class="form-check form-switch">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="content"
+                    />
+                    <label class="form-check-label" for="content"
+                      >Reading/Writing Learning</label
+                    >
+                  </div>
+                </div>
+                <!-- modal footer -->
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-              <!-- How to create an HTML Document?- Amit Thinks -->
-        <div class="row">
-          <div class="col col-3">
-            <div class="card">
-              <iframe
-                src="https://www.youtube.com/embed/H50ECwjgQ7s"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-              <div class="card-body">
-                <h5 class="card-title">create an HTML Doc</h5>
-                <h6 class="card-subtitle">Amit Thinks</h6>
-              </div>
-            </div>
-          </div>
-              <!-- learn html in 12minutes - jake wright -->
-          <div class="col col-3">
-            <div class="card">
-              <iframe
-                src="https://www.youtube.com/embed/bWPMSSsVdPk"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-              <div class="card-body">
-                <h5 class="card-title">Learn HTML in 12 mins</h5>
-                <h6 class="card-subtitle">Jake Wright</h6>
-              </div>
-            </div>
-          </div>
-              <!-- How doctype works - Kootkot -->
-          <div class="col col-3">
-            <div class="card">
-              <iframe
-                src="https://www.youtube.com/embed/29iRX6f_TXM"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-              <div class="card-body">
-                <h5 class="card-title">How Doctype Works</h5>
-                <h6 class="card-subtitle">KootKot</h6>
-              </div>
-            </div>
-          </div>          
-              <!-- How to create an HTML Document?- Amit Thinks -->
-          <div class="col col-3">
-            <div class="card">
-              <iframe
-                src="https://www.youtube.com/embed/bupWPZdXqIA"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-              <div class="card-body">
-                <h5 class="card-title">Our First HTML File</h5>
-                <h6 class="card-subtitle">Dani Krossing</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
 
-          <!-- html elements, tags and attributes -->
-          <div class="sections">
-          <div class="row">
-            <div class="col"><h2>HTML Elements, Tags and Attributes</h2></div>
-          </div>
-                <!-- Elements and Attributes in HTML - Dani Krossing -->
-          <div class="row">
-            <div class="col col-3">
-              <div class="card">
-                <iframe
-                  src="https://www.youtube.com/embed/XXrpsQqAlIQ"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-                <div class="card-body">
-                  <h5 class="card-title">Elements and Attributes in HTML</h5>
-                  <h6 class="card-subtitle">Dani Krossing</h6>
-                </div>
+        <!-- email user autentification section -->
+
+        <div class="col col-6 email-section">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                placeholder="exampleInputEmail1"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
               </div>
             </div>
-
-                   <!-- HTML Tags, Attributes and Elements - John Morris -->
-            <div class="col col-3">
-              <div class="card">
-                <iframe
-                  src="https://www.youtube.com/embed/vNOyRZIkC7o"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-                <div class="card-body">
-                  <h5 class="card-title">HTML Tags, Attributes and Elements</h5>
-                  <h6 class="card-subtitle">John Morris</h6>
-                </div>
-              </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
             </div>
-
-                   <!-- HTML Syntax and Structure - Net Ninja -->
-            <div class="col col-3">
-              <div class="card">
-                <iframe
-                  src="https://www.youtube.com/embed/IJWcX2EDAKg"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-                <div class="card-body">
-                  <h5 class="card-title">HTML Syntax and Structure</h5>
-                  <h6 class="card-subtitle">Net Ninja</h6>
-                </div>
-              </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Check me out</label
+              >
             </div>
-
-                   <!-- How to Make your First Web Page - Net Ninja -->
-            <div class="col col-3">
-              <div class="card">
-                <iframe
-                  src="https://www.youtube.com/embed/MnaKa7igX7k"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-                <div class="card-body">
-                  <h5 class="card-title">How to Make your First Web Page</h5>
-                  <h6 class="card-subtitle">Net Ninja</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-
-                    <!-- Know Your Head from Body tags - Net Ninja -->
-                    <div class="row">
-                    <div class="col col-3">
-                      <div class="card">
-                        <iframe
-                          src="https://www.youtube.com/embed/mNRzWMH5xK0"
-                          frameborder="0"
-                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen
-                        ></iframe>
-                        <div class="card-body">
-                          <h5 class="card-title">Know Your Head from Body tags</h5>
-                          <h6 class="card-subtitle">Net Ninja</h6>
-                        </div>
-                      </div>
-                    </div>
-
-                            <!-- Headings and Text in HTML - Net Ninja -->
-            <div class="col col-3">
-              <div class="card">
-                <iframe
-                  src="https://www.youtube.com/embed/XxZPrn1VFTc"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-                <div class="card-body">
-                  <h5 class="card-title">Headings and Text in HTML</h5>
-                  <h6 class="card-subtitle">Net Ninja</h6>
-                </div>
-              </div>
-            </div>
-
-                    <!-- Get Your Headings Right in HTML - Net Ninja -->
-                    <div class="col col-3">
-                      <div class="card">
-                        <iframe
-                          src="https://www.youtube.com/embed/UWdepvkLE8U"
-                          frameborder="0"
-                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen
-                        ></iframe>
-                        <div class="card-body">
-                          <h5 class="card-title">Get Your Headings Right in HTML</h5>
-                          <h6 class="card-subtitle">Net Ninja</h6>
-                        </div>
-                      </div>
-                    </div>
-
-                            <!-- How to use the Image Tag - Net Ninja -->
-            <div class="col col-3">
-              <div class="card">
-                <iframe
-                  src="https://www.youtube.com/embed/g6xsNHnAmlE"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-                <div class="card-body">
-                  <h5 class="card-title">How to use the Image Tag</h5>
-                  <h6 class="card-subtitle">Net Ninja</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Linking Things Up in HTML - Net Ninja -->
-          <div class="row">
-            <div class="col col-3">
-              <div class="card">
-                <iframe
-                  src="https://www.youtube.com/embed/f8pAb3IuECk"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-                <div class="card-body">
-                  <h5 class="card-title">Linking in HTML</h5>
-                  <h6 class="card-subtitle">Net Ninja</h6>
-                </div>
-              </div>
-            </div>
-
-                    <!-- Using Lists in HTML - Net Ninja -->
-    <div class="col col-3">
-      <div class="card">
-        <iframe
-          src="https://www.youtube.com/embed/HeQvQEiGMKk"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-        <div class="card-body">
-          <h5 class="card-title">Using Lists in HTML</h5>
-          <h6 class="card-subtitle">Net Ninja</h6>
+            <button type="submit" class="btn btn-outline-light">Submit</button>
+          </form>
         </div>
       </div>
     </div>
-
-            <!-- Line Breaks and Hr Tags - Net Ninja -->
-            <div class="col col-3">
-              <div class="card">
-                <iframe
-                  src="https://www.youtube.com/embed/xkF-cKpzREU"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-                <div class="card-body">
-                  <h5 class="card-title">Line Breaks and Hr Tags</h5>
-                  <h6 class="card-subtitle">Net Ninja</h6>
-                </div>
-              </div>
-            </div>
-
-                    <!-- The div Tag in HTML - Net Ninja -->
-    <div class="col col-3">
-      <div class="card">
-        <iframe
-          src="https://www.youtube.com/embed/-XQlr727A8w"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-        <div class="card-body">
-          <h5 class="card-title">The div Tag in HTML</h5>
-          <h6 class="card-subtitle">Net Ninja</h6>
-        </div>
-      </div>
-    </div>
-  </div>
-    </div>
+  
     
 
-   <!-- html Forms and Tables -->
-   <div class="sections">
-   <div class="row">
-    <div class="col"><h2>HTML Forms and Tables</h2></div>
-  </div>
-        <!-- HTML Forms in 25 minutes - Web Dev Simplified -->
-  <div class="row">
-    <div class="col col-3">
-      <div class="card">
-        <iframe
-          src="https://www.youtube.com/embed/fNcJuPIZ2WE"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-        <div class="card-body">
-          <h5 class="card-title">HTML Forms in 25 minutes</h5>
-          <h6 class="card-subtitle">Web Dev Simplified</h6>
-        </div>
-      </div>
-    </div>
-
-           <!-- New HTML Element Changes Modals Forever - Web Dev Simplified -->
-    <div class="col col-3">
-      <div class="card">
-        <iframe
-          src="https://www.youtube.com/embed/ywtkJkxJsdg"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-        <div class="card-body">
-          <h5 class="card-title">New HTML Element Changes Modals Forever</h5>
-          <h6 class="card-subtitle">Web Dev Simplified</h6>
-        </div>
-      </div>
-    </div>
-
-           <!-- Learn HTML Forms in 3 minutes - Bro Code -->
-    <div class="col col-3">
-      <div class="card">
-        <iframe
-          src="https://www.youtube.com/embed/iDA0kF5lrVk"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-        <div class="card-body">
-          <h5 class="card-title">Learn HTML Forms in 3 minnutes</h5>
-          <h6 class="card-subtitle">Bro Code</h6>
-        </div>
-      </div>
-    </div>
-
-           <!-- HTML: table, tr, td - CJ Avilla -->
-    <div class="col col-3">
-      <div class="card">
-        <iframe
-          src="https://www.youtube.com/embed/kNcJKPRUjuY"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-        <div class="card-body">
-          <h5 class="card-title">HTML: table, tr, td</h5>
-          <h6 class="card-subtitle">CJ Avilla</h6>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- JSFiddle API -->
     <script async src="//jsfiddle.net/HarpreetVirdi/6y3bjLn5/3/embed/"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>
-  </div>
+  
   </body>
 </html>
  
 
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p class="col-md-3 mb-0 text-muted">© 2023 WebMaestro, Inc</p>
-    <img class="footer-logo mx-3" src="./assets/images/WEB MAESTRO.png" height="30px" width="120px"/>
-  </footer>
-
-</body>
+    <!-- footer section -->
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <p class="col-md-3 mb-0 text-muted">© 2023 WebMaestro, Inc</p>
+      <img
+        class="footer-logo mx-3"
+        src="./assets/images/WEB MAESTRO.png"
+        height="30px"
+        width="120px"
+      />
+    </footer>
+  </body>
 </html>
