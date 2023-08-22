@@ -1,10 +1,12 @@
-# Project Name: web-maestro-app
+## TEAM NAME:
 
-## TEAM NAME: Team Vanilla
+Team Vanilla
 
-## Project Name (Options): webMaestro.
+## Project Name (Options):
 
-  ** Elevator Pitch:
+webMaestro.
+
+\*\* Elevator Pitch:
 We have come up with an ingenious
 web product , which in itself a
 solution to the problem that most
@@ -19,14 +21,13 @@ This is a Software App solution that
 presents web links to for students to
 be able to add learning resources
 and tutorial videos from Youtube and
-Reddit as recommended by the Tas
+Reddit as recommended by the TAs
 and organized based on subject. It
 offers students flexibility and
 proximity to their external learning
 resources while taking away the
 stress of searching endlessly for
 materials on the web.
-
 
 ## Link to github repository
 
@@ -61,7 +62,7 @@ materials on the web.
         is greeted with an interface to select
         their particular learning style, after
         which they are presented with
-        resources after the manner of 
+        resources after the manner of
         such selected style.
 
 ## USER STORY
@@ -75,16 +76,23 @@ materials on the web.
 ## Acceptance Criteria:
 
         GIVEN that I am a UoB Bootcamp student
+
         WHEN I want to study after classes
+
         THEN I log into my account in my
-        “study guide” app (User authentication)
-        THEN I chose from a list of
-        sequentially arranged topics
+        “web maestro” app (User authentication)
+
         THEN I chose my preferred learning
         style
+
+        THEN I chose from a list of
+        sequentially arranged topics
+
         WHEN a topic is selected
+
         THEN I am redirected to an external
         learning resource
+
         THEN I am also able to take notes
         while studying
 
