@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body class="hero-body">
-      <!-- navigation bar-->
+      <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html"
@@ -67,25 +67,28 @@
 
         
     <div class="container">
-      <!-- the main welcome heading -->
+      <!-- Landing Hero Card -->
       <div class="row">
-        <div class="col">
-          <h1>FRONT END WEB DEVELOPMENT</h1>
-          <h3 class="bootcamp">SKILLS BOOTCAMP/UX</h3>
-          <h2 class="web-m">Web Maestro Learning App</h2>
+        <div class="col landing-card">
+          <h1 class="landing-title my-4">FRONT-END WEB DEVELOPMENT & UX</h1>
+          <h2>University of Birmingham <img src="/assets/images/uob.svg.png" height="35px"/> - Skills Bootcamp<img class="px-2" src="/assets/images/skills-for-life.png" height="40px"/></h2>
+          <h3 class="web-m"><i><b>WebMaestro</b></i> Learning Platform</h3>
         </div>
       </div>
 
-      <!-- here, the user clicks on a button that takes them to the learning styles options modal -->
+      <!-- Learning Style Form -->
+      <div class="row row-hero justify-content-center">
+        <div class="col col-6 landing-card learning-style-container">
+          
+          <div>
+            <h2 class="learning-style-header">Begin Your Learning Journey</h2>
+            <h3 class="learning-style">Select Your Preferred Learning Style: </h3>
+          </div>
 
-      <div class="row row-hero">
-        <div class="col col-6">
-          <h3 class="learning-style">To Select Preffered Learning Style</h3>
-
-          <!-- Button trigger modal -->
+          <!-- Modal Trigger -->
           <button
             type="button"
-            class="btn btn-outline-light"
+            class="btn btn-success"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           >
@@ -114,7 +117,7 @@
                   ></button>
                 </div>
                 <div class="modal-body">
-                  <!-- form inside the modal -->
+                  <!-- Modal Form -->
                   <div class="form-check form-switch">
                     <input
                       type="checkbox"
@@ -122,7 +125,7 @@
                       id="content"
                     />
                     <label class="form-check-label" for="content"
-                      >Audio/Visual/Practical Learning</label
+                      >Video Tutorials</label
                     >
                   </div>                 
 
@@ -133,11 +136,11 @@
                       id="content"
                     />
                     <label class="form-check-label" for="content"
-                      >Reading/Writing Learning</label
+                      >Documentation and Guides</label
                     >
                   </div>
                 </div>
-                <!-- modal footer -->
+                <!-- Modal Footer -->
                 <div class="modal-footer">
                   <button
                     type="button"
@@ -154,70 +157,20 @@
             </div>
           </div>
         </div>
-
-        <!-- email user autentification section -->
-
-        <div class="col col-6 email-section">
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
-                >Email address</label
-              >
-              <input
-                type="email"
-                class="form-control"
-                placeholder="exampleInputEmail1"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-              <div id="emailHelp" class="form-text">
-                We'll never share your email with anyone else.
-              </div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label"
-                >Password</label
-              >
-              <input
-                type="password"
-                class="form-control"
-                id="exampleInputPassword1"
-              />
-            </div>
-            <div class="mb-3 form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >Remember me</label
-              >
-            </div>
-            <button type="submit" class="btn btn-outline-light">Submit</button>
-          </form>
-        </div>
       </div>
     </div>
-  
-    
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
-
-    <!-- JSFiddle API -->
-    <script async src="//jsfiddle.net/HarpreetVirdi/6y3bjLn5/3/embed/"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="./assets/js/script.js"></script>
   
   </body>
 </html>
  
 
-    <!-- footer section -->
+    <!-- Footer -->
     <footer
       class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
     >
