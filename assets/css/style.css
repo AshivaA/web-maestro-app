@@ -53,6 +53,7 @@ h2 {
   border-radius: 5px;
   display: inline;
   padding: 0 5px;
+  margin-bottom: 100px;
 }
 
 .sections {
@@ -100,6 +101,10 @@ h2 {
 
 .web-m{
   color: rgb(239, 150, 7);
+}
+
+h4{
+  margin-top: 20px;
 }
 
 

@@ -1,9 +1,10 @@
 # Project Name: web-maestro-app
 
-               TEAM NAME: Team Vanilla
+## TEAM NAME: Team Vanilla
 
-Project Name (Options): webMaestro.
-Elevator Pitch:
+## Project Name (Options): webMaestro.
+
+  ** Elevator Pitch:
 We have come up with an ingenious
 web product , which in itself a
 solution to the problem that most
@@ -25,7 +26,7 @@ proximity to their external learning
 resources while taking away the
 stress of searching endlessly for
 materials on the web.
-Project Description:
+
 
 ## Link to github repository
 
@@ -37,7 +38,7 @@ Project Description:
 
 ## Table of Contents
 
-[--> About web mestro app](#about-me)
+[--> About web maestro app](#about-me)
 [--> user story](#user-story)
 [--> Acceptence criteria](#acceptance-criteria)
 [--> Languages used](#5-languages-used)
@@ -48,10 +49,10 @@ Project Description:
 [-->License](#10-license)
 [-->Copyright](#copyright)
 
-## 1. About web mestro app
+## 1. About the Web Maestro app
 
-        The Project considers, the fact that
-        as people are different, so do they
+        The Project considers the fact that,
+        as people are different, so do they also
         learn differently. Also, it brings
         learning resources to you rather than
         you going in an endless search for
@@ -60,8 +61,8 @@ Project Description:
         is greeted with an interface to select
         their particular learning style, after
         which they are presented with
-        resources after the manner of the
-        such style.
+        resources after the manner of 
+        such selected style.
 
 ## USER STORY
 
@@ -111,7 +112,7 @@ Project Description:
 
 ## APIs used
 
-        APIs: Youtube, Reddit
+Youtube, Reddit
 
 ## 7. Installation
 
