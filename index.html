@@ -10,61 +10,136 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body class="hero">
-    <!-- navigation bar -->
-
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"
-          ><img src="./images/WEB MAESTRO.png" width="150px" height="50px"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="./vscode-page.html">
-                <b>VsCode</b>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./git-github-page.html">
-                <b>Git/GitHub</b>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./html-page.html">
-                <b>HTML</b>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./css-page.html">
-                <b>CSS</b>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./javascript-page.html">
-                <b>JavaScript</b>
-              </a>
-            </li>
-          </ul>
-          <a href="./notes-page.html"
-            ><button type="button" class="btn btn-dark">My Notes</button></a
+  <body>
+      <!-- navigation bar-->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./assets/images/WEB MAESTRO.png" width="150px" height="50px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./assets/html/vscode-page.html">
+                  <b>VsCode</b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./assets/html/git-github-page.html">
+                  <b>Git/GitHub</b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">
+                  <b>HTML</b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./assets/html/css-page.html">
+                  <b>CSS</b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./assets/html/javascript-page.html">
+                  <b>JavaScript</b>
+                </a>
+              </li>
+            </ul>
+            <a href="./notes-page.html"
+              ><button type="button" class="btn btn-outline-dark">My Notes</button></a
+            >
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+
+
+      <!-- welcome to html to html -->
+      <div class="row">
+        <div class="col"><h1>Welcome to HTML</h1></div>
+      </div>
+
+      <!-- introduction to html -->
+      <div class="sections">
+      <div class="row">
+        <div class="col"><h2>Introduction to HTML</h2></div>
+      </div>
+            <!-- Introduction to HTML - Web Dev Simplified -->
+      <div class="row">
+        <div class="col col-3">
+          <div class="card">
+            <iframe
+              src="https://www.youtube.com/embed/BvJYXl2ywUE"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Introduction to HTML</h5>
+              <h6 class="card-subtitle">Web Dev Simplified</h6>
+            </div>
+          </div>
+        </div>
+            <!-- What is HTML? - Kevin Powell -->
+        <div class="col col-3">
+          <div class="card">
+            <iframe
+              src="https://www.youtube.com/embed/LGQuIIv2RVA"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="card-body">
+              <h5 class="card-title">What is HTML?</h5>
+              <h6 class="card-subtitle">Kevin Powell</h6>              
+            </div>
+          </div>
+        </div>
+            <!-- Intro to HTML - Net Ninja -->
+        <div class="col col-3">
+          <div class="card">
+            <iframe
+              src="https://www.youtube.com/embed/Y1BlT4_c_SU"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Intro to HTML</h5>
+              <h6 class="card-subtitle">Net Ninja</h6>              
+            </div>
+          </div>
+        </div>
+              <!-- What is HTML - Net Ninja -->
+        <div class="col col-3">
+          <div class="card">
+            <iframe
+              src="https://www.youtube.com/embed/cZCq8lQ-vZ0"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="card-body">
+              <h5 class="card-title">What is HTML</h5>
+              <h6 class="card-subtitle">Net Ninja</h6>              
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
+    </div>
 
     <div class="container">
       <!-- the main welcome heading -->
@@ -220,7 +295,11 @@
     <!-- JSFiddle API -->
     <script async src="//jsfiddle.net/HarpreetVirdi/6y3bjLn5/3/embed/"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </div>
+  </body>
+</html>
+ 
 
     <!-- footer section -->
     <footer
