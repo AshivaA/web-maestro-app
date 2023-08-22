@@ -1,6 +1,31 @@
-# web-maestro-app
+# Project Name: web-maestro-app
 
-Hii , I am Harpreet kaur.I am basically from Punjab (India).I get married in 2020.I have done B.Sc. IT FROM Phagwara(Punjab). After that i did job at Technobitz as a website designer for around 5 years.My main duty was to edit running websites.After marriage i decided to study abroad.Then i studied at university of Wolverhampton. Now i want to sharpen my skills to get job in IT company. My hobbies are gardening and programming.Programming is my passion .I like learning new programming languages.This is the reason i have enrolled in bootcamp. Sometimes i spend my time in my home garden.I like to sit in the garden and watering plants.That's all about me.
+               TEAM NAME: Team Vanilla
+
+Project Name (Options): webMaestro.
+Elevator Pitch:
+We have come up with an ingenious
+web product , which in itself a
+solution to the problem that most
+bootcamp students face, having to
+rack their brains for relevant after
+class study materials that takes into
+account various learning styles such
+as visual learning, etc, as well as
+incorporates a note-taking section
+while learning.
+This is a Software App solution that
+presents web links to for students to
+be able to add learning resources
+and tutorial videos from Youtube and
+Reddit as recommended by the Tas
+and organized based on subject. It
+offers students flexibility and
+proximity to their external learning
+resources while taking away the
+stress of searching endlessly for
+materials on the web.
+Project Description:
 
 ## Link to github repository
 
@@ -12,29 +37,55 @@ Hii , I am Harpreet kaur.I am basically from Punjab (India).I get married in 202
 
 ## Table of Contents
 
-[--> About me](#about-me)
-
-[--> work](#work)
-
-[--> Contact me](#contact-me)
-
+[--> About web mestro app](#about-me)
+[--> user story](#user-story)
+[--> Acceptence criteria](#acceptance-criteria)
 [--> Languages used](#5-languages-used)
-
 [--> Browser Support](#6-browser-support)
-
 [--> Screenshots](#7-screenshots-of-webpage)
-
 [--> Installation](#8-installation)
-
 [-->Contribution](#9-contribution)
-
 [-->License](#10-license)
+[-->Copyright](#copyright)
 
 ## 1. About web mestro app
 
-## 2. User Story
+        The Project considers, the fact that
+        as people are different, so do they
+        learn differently. Also, it brings
+        learning resources to you rather than
+        you going in an endless search for
+        them.
+        Upon logging into the App, the user
+        is greeted with an interface to select
+        their particular learning style, after
+        which they are presented with
+        resources after the manner of the
+        such style.
 
-## 3. Acceptence criteria
+## USER STORY
+
+        AS A UoB Front-End Bootcamp student,
+        I WANT to find learning resources on
+        covered content includingGit/GitHub, VsCode set up, HTML, CSS, JavaScript and APIs with ease,
+        SO THAT I can devote more time to
+        learning rather than searching.
+
+## Acceptance Criteria:
+
+        GIVEN that I am a UoB Bootcamp student
+        WHEN I want to study after classes
+        THEN I log into my account in my
+        “study guide” app (User authentication)
+        THEN I chose from a list of
+        sequentially arranged topics
+        THEN I chose my preferred learning
+        style
+        WHEN a topic is selected
+        THEN I am redirected to an external
+        learning resource
+        THEN I am also able to take notes
+        while studying
 
 ## 4. Languages used
 
@@ -52,11 +103,15 @@ Hii , I am Harpreet kaur.I am basically from Punjab (India).I get married in 202
 
 ## 6. Screenshots of webpage
 
-![](./images/WEB%20MAESTRO.png "my image")
+![](./assets/images/jsfiddle.png "my image")
 
-![](./images/jsfiddle.png "my image")
+![](./assets/images/WEB%20MAESTRO.png "my image")
 
-![](./images/notes.png "my image")
+![](./assets/images/youtube.png "my image")
+
+## APIs used
+
+        APIs: Youtube, Reddit
 
 ## 7. Installation
 
@@ -64,8 +119,16 @@ Hii , I am Harpreet kaur.I am basically from Punjab (India).I get married in 202
 
 ## 8. Contribution
 
-        5 contributors
+        Aboje Oloche
+        Emmanuel, Mohsin Khan Ajmal(HTML,CSS)
+
+        Functionality(Javascript)
+        Harpreet Kaur, Shiva Khande,Ricardo Oliveira
 
 ## 9. License
 
         MIT License
+
+## copyright
+
+    © 2023 WebMaestro, Inc
