@@ -64,3 +64,35 @@ h2 {
   margin-bottom: 10px;
   /* opacity: .6; */
 }
+
+.row-hero{
+  margin-top: 100px;
+}
+
+.hero{
+  background-image: url(../images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-blend-mode: color;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.email-section{
+  background-color: rgba(255, 255, 255, 0.2);
+  border: solid 1px rgb(53, 53, 53);
+  padding: 30px;
+  color: aliceblue;
+}
+
+.bootcamp{
+  background-color: rgba(255, 255, 255, 0.2);
+  border: solid 1px rgb(53, 53, 53);
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.learning-style{
+  color: wheat;
+
+}
