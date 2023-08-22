@@ -2,6 +2,7 @@ body {
   background-color: rgb(173, 173, 173);
 }
 .navbar {
+  background-color: wheat;
   border-bottom: 2px solid rgb(78, 78, 78);
 }
 
@@ -15,6 +16,80 @@ body {
   box-shadow: 0 -2px black inset;
 }
 
+.sections {
+  background-color: rgb(139, 139, 139);
+  padding: 20px;
+  margin-top: 50px;
+  box-shadow: 1px 1px 10px #ffffff;
+
+  margin-bottom: 10px;
+  /* opacity: .6; */
+}
+
+.landing-title {
+  text-align: center;
+}
+
+.web-m{
+  color: rgb(16, 97, 20);
+}
+
+.landing-card {
+  margin-top: 100px;
+  background-color: #ffffff98;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.row-hero{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hero-body{
+  background-image: url(../../assets/images/homepage-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 255, 0.7);
+}
+
+.learning-style-container{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.learning-style-header {
+  text-decoration: underline;
+}
+
+.learning-style{
+  color: black;
+  margin-right: 40px;
+}
+
+h4{
+  margin-top: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: -28px;
+  width: 100%;
+  background-color: wheat;
+  border-top: 2px solid rgb(49, 49, 49);
+  color: white;
+  text-align: center;
+}
+
+.footer-logo {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
 @media only screen and (min-width: 768px) {
   iframe {
     height: 13em;
@@ -26,86 +101,3 @@ body {
     padding: 10px;
   }
 }
-footer {
-  position: fixed;
-  left: 0;
-  bottom: -28px;
-  width: 100%;
-  background-color: rgb(184, 184, 184);
-  border-top: 2px solid rgb(49, 49, 49);
-  color: white;
-  text-align: center;
-}
-
-.footer-logo {
-  border: 1px solid rgba(0, 0, 0, 0.25);
-}
-
-h1,
-h2 {
-  margin-top: 50px;
-  color: rgb(255, 255, 255);
-}
-
-h2 {
-  color: rgb(0, 0, 0);
-  border-bottom: solid 1px rgb(169, 169, 169);
-  border-radius: 5px;
-  display: inline;
-  padding: 0 5px;
-  margin-bottom: 100px;
-}
-
-.sections {
-  background-color: rgb(139, 139, 139);
-  padding: 20px;
-  margin-top: 50px;
-  box-shadow: 1px 1px 10px #ffffff;
-
-  margin-bottom: 10px;
-  /* opacity: .6; */
-}
-
-.row-hero{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.hero-body{
-  background-image: url(../../assets/images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg);
-  background-size: cover;
-  background-position: bottom;
-  background-blend-mode: color;
-  background-color: rgba(0, 0, 255, 0.7);
-}
-
-.email-section{
-  background-color: rgba(255, 255, 255, 0.2);
-  border: solid 1px rgb(53, 53, 53);
-  padding: 30px;
-  color: aliceblue;
-}
-
-.bootcamp{
-  background-color: rgba(255, 255, 255, 0.2);
-  border: solid 1px rgb(53, 53, 53);
-  padding: 10px;
-  border-radius: 5px;
-  width: fit-content;
-  color: rgb(134, 116, 83);
-}
-
-.learning-style{
-  color: wheat;
-
-}
-
-.web-m{
-  color: rgb(61, 102, 63);
-}
-
-h4{
-  margin-top: 20px;
-}
-
-
