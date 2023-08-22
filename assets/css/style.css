@@ -53,6 +53,7 @@ h2 {
   border-radius: 5px;
   display: inline;
   padding: 0 5px;
+  margin-bottom: 100px;
 }
 
 .sections {
@@ -64,3 +65,47 @@ h2 {
   margin-bottom: 10px;
   /* opacity: .6; */
 }
+
+.row-hero{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hero-body{
+  background-image: url(../../assets/images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 255, 0.7);
+}
+
+.email-section{
+  background-color: rgba(255, 255, 255, 0.2);
+  border: solid 1px rgb(53, 53, 53);
+  padding: 30px;
+  color: aliceblue;
+}
+
+.bootcamp{
+  background-color: rgba(255, 255, 255, 0.2);
+  border: solid 1px rgb(53, 53, 53);
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  color: rgb(134, 116, 83);
+}
+
+.learning-style{
+  color: wheat;
+
+}
+
+.web-m{
+  color: rgb(61, 102, 63);
+}
+
+h4{
+  margin-top: 20px;
+}
+
+

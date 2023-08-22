@@ -1,107 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Maestro</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home Page of the web Maestro app</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"
-          ><img src="./images/WEB MAESTRO.png" width="150px" height="50px"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="./vscode-page.html">
-                <b>VsCode</b>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./git-github-page.html">
-                <b>Git/GitHub</b>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./html-page.html">
-                <b>HTML</b>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./css-page.html">
-                <b>CSS</b>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./javascript-page.html">
-                <b>JavaScript</b>
-              </a>
-            </li>
-          </ul>
-          <a href="./notes-page.html"
-            ><button type="button" class="btn btn-dark">My Notes</button></a
+  <body class="hero-body">
+      <!-- navigation bar-->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./assets/images/WEB MAESTRO.png" width="150px" height="50px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-        </div>
-      </div>
-    </nav>
-
-    <!-- YouTube API -->
-    <iframe height="720px" width="1280px" id="showvideo"></iframe>
-    <iframe height="720px" width="1280px" id="showvideo2"></iframe>
-    <button id="clickme">click</button>
-
-        <div class="card">
-          <iframe src="https://www.youtube.com/embed/BvJYXl2ywUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <div class="form-floating">
-              <label for="floatingTextarea">Type your notes here</label>
-              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            </div>
-            <button type="button" id="submitNotes" class="btn btn-primary">Submit notes</button>
-            <!-- when the user types their notes,  and presses the submit, a list item is appended to display the notes to screen -->
-            <!-- add persistent data -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./assets/html/vscode-page.html">
+                  <b>VsCode</b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./assets/html/git-github-page.html">
+                  <b>Git/GitHub</b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">
+                  <b>HTML</b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./assets/html/css-page.html">
+                  <b>CSS</b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./assets/html/javascript-page.html">
+                  <b>JavaScript</b>
+                </a>
+              </li>
+            </ul>
+            <a href="./notes-page.html"
+              ><button type="button" class="btn btn-outline-dark">My Notes</button></a
+            >
           </div>
         </div>
-  
-  
-  
+      </nav>
+
+        
+    <div class="container">
+      <!-- the main welcome heading -->
+      <div class="row">
+        <div class="col">
+          <h1>FRONT END WEB DEVELOPMENT</h1>
+          <h3 class="bootcamp">SKILLS BOOTCAMP/UX</h3>
+          <h2 class="web-m">Web Maestro Learning App</h2>
+        </div>
       </div>
-      
 
-  <!-- YouTube API -->
-  <iframe height="720px" width="1280px" id="showvideo"></iframe>
-  <iframe height="720px" width="1280px" id="showvideo2"></iframe>
-  <button id="clickme">click</button>
+      <!-- here, the user clicks on a button that takes them to the learning styles options modal -->
 
-  <!-- JSFiddle API -->
-  <script async src="//jsfiddle.net/HarpreetVirdi/6y3bjLn5/3/embed/"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="./js/script.js"></script>
+      <div class="row row-hero">
+        <div class="col col-6">
+          <h3 class="learning-style">To Select Preffered Learning Style</h3>
 
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p class="col-md-3 mb-0 text-muted">© 2023 WebMaestro, Inc</p>
-    <img class="footer-logo mx-3" src="./images/WEB MAESTRO.png" height="30px" width="120px"/>
-  </footer>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-light"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Click here
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title fs-5" id="exampleModalLabel">
+                    Learning Styles:
+                  </h3>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <!-- form inside the modal -->
+                  <div class="form-check form-switch">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="content"
+                    />
+                    <label class="form-check-label" for="content"
+                      >Audio/Visual/Practical Learning</label
+                    >
+                  </div>                 
+
+                  <div class="form-check form-switch">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="content"
+                    />
+                    <label class="form-check-label" for="content"
+                      >Reading/Writing Learning</label
+                    >
+                  </div>
+                </div>
+                <!-- modal footer -->
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- email user autentification section -->
+
+        <div class="col col-6 email-section">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                placeholder="exampleInputEmail1"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Remember me</label
+              >
+            </div>
+            <button type="submit" class="btn btn-outline-light">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  
     
-</body>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JSFiddle API -->
+    <script async src="//jsfiddle.net/HarpreetVirdi/6y3bjLn5/3/embed/"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  
+  </body>
+</html>
+ 
+
+    <!-- footer section -->
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <p class="col-md-3 mb-0 text-muted">© 2023 WebMaestro, Inc</p>
+      <img
+        class="footer-logo mx-3"
+        src="./assets/images/WEB MAESTRO.png"
+        height="30px"
+        width="120px"
+      />
+    </footer>
+  </body>
 </html>
