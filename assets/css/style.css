@@ -53,6 +53,7 @@ h2 {
   border-radius: 5px;
   display: inline;
   padding: 0 5px;
+  margin-bottom: 100px;
 }
 
 .sections {
@@ -91,6 +92,7 @@ h2 {
   padding: 10px;
   border-radius: 5px;
   width: fit-content;
+  color: rgb(134, 116, 83);
 }
 
 .learning-style{
@@ -99,7 +101,11 @@ h2 {
 }
 
 .web-m{
-  color: rgb(239, 150, 7);
+  color: rgb(61, 102, 63);
+}
+
+h4{
+  margin-top: 20px;
 }
 
 
