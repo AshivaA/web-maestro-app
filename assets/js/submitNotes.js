@@ -1,5 +1,5 @@
 var floatingTextarea = $("#floatingTextarea");
-
+var showMsg = $("#showMsg");
 $("#addNote").on("click", function (event) {
   event.preventDefault();
 
@@ -8,12 +8,12 @@ $("#addNote").on("click", function (event) {
   };
 
   if (eventAdded.eventName === "") {
-    alert("Enter notes to save");
+    showMsg.text("Enter something to Add....");
   } else {
     // set new submission
     var value = floatingTextarea.val().trim();
     localStorage.setItem("getInput1", JSON.stringify(value));
-
+    showMsg.text("Notes Added");
     // get most recent submission
     var enteredInputValue = JSON.parse(localStorage.getItem("getInput1"));
     floatingTextarea.text(enteredInputValue);

@@ -96,11 +96,16 @@ materials on the web.
         THEN I am also able to take notes
         while studying
 
+        WHEN I want to search for any other topic
+
+        THEN I can user search bar on the menu to search for topic on google.
+
 ## 4. Languages used
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JAVASCRIPT](https://img.shields.io/badge/JAVASCRIPT-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ## 5. Browser support
 
@@ -112,15 +117,17 @@ materials on the web.
 
 ## 6. Screenshots of webpage
 
-![](./assets/images/jsfiddle.png "my image")
+![](./assets/images/google-search-pic.png "my image")
 
+![](./assets/images/search-button.png "my image")
 ![](./assets/images/WEB%20MAESTRO.png "my image")
 
 ![](./assets/images/youtube.png "my image")
+![](./assets/images/notes-added.png "my image")
 
 ## APIs used
 
-Youtube, Reddit
+        Youtube, Google custom search API
 
 ## 7. Installation
 
