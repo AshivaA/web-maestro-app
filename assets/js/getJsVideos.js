@@ -1,7 +1,7 @@
 var js1 = $("#js1");
 //qoSksQ4s_hg
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=qoSksQ4s_hg&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=qoSksQ4s_hg&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -15,7 +15,7 @@ var ninja1 = $("#ninja1");
 //              src="https://www.youtube.com/embed/iWOYAxlnaww"
 
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=iWOYAxlnaww&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=iWOYAxlnaww&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -29,7 +29,7 @@ fetch(
 var ninja2 = $("#ninja2");
 
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=JzZFccCEgGA&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=JzZFccCEgGA&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -41,7 +41,7 @@ fetch(
 var andy = $("#andy");
 
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=quJzdnXuNDc&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=quJzdnXuNDc&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -55,7 +55,7 @@ fetch(
 var ninja3 = $("#ninja3");
 
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=QLatPwsbDrQ&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=QLatPwsbDrQ&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -68,7 +68,7 @@ fetch(
 
 var krossing = $("#krossing");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=FZzyij43A54&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=FZzyij43A54&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -81,7 +81,7 @@ fetch(
 
 var telu = $("#telu");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=vWX2eoi3bOc&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=vWX2eoi3bOc&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -94,7 +94,7 @@ fetch(
 
 var great = $("#great");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=_Xf6g1ZYxiI&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=_Xf6g1ZYxiI&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -107,7 +107,7 @@ fetch(
 
 var steve = $("#steve");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=RpU7NezV8PM&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=RpU7NezV8PM&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -119,7 +119,7 @@ fetch(
 
 var simplified = $("#simplified");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=7W4pQQ20nJg&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=7W4pQQ20nJg&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -132,7 +132,7 @@ fetch(
 
 var dani = $("#dani");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=4uVwGw317QM&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=4uVwGw317QM&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -144,7 +144,7 @@ fetch(
 
 var dev = $("#dev");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=R8rmfD9Y5-c&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=R8rmfD9Y5-c&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -157,7 +157,7 @@ fetch(
 
 var danny = $("#danny");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=OMoxLUxW7Wc&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=OMoxLUxW7Wc&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -169,7 +169,7 @@ fetch(
 
 var fun = $("#fun");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=FOD408a0EzU&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=FOD408a0EzU&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -181,7 +181,7 @@ fetch(
 
 var net = $("#net");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=KH57lIgwe2g&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=KH57lIgwe2g&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -193,7 +193,7 @@ fetch(
 
 var net2 = $("#net2");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=xUI5Tsl2JpY&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=xUI5Tsl2JpY&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -205,7 +205,7 @@ fetch(
 
 var dani2 = $("#dani2");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=uLmdvseykQM&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=uLmdvseykQM&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -217,7 +217,7 @@ fetch(
 
 var telusko = $("#telusko");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=4r72b1ScPLY&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=4r72b1ScPLY&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -229,7 +229,7 @@ fetch(
 
 var dcode = $("#dcode");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=6I3qMe-jXDs&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=6I3qMe-jXDs&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -241,7 +241,7 @@ fetch(
 
 var freecode = $("#freecode");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=GpOO5iKzOmY&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=GpOO5iKzOmY&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -253,7 +253,7 @@ fetch(
 
 var traverse = $("#traverse");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=0ik6X4DJKCc&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=0ik6X4DJKCc&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -265,7 +265,7 @@ fetch(
 
 var ninja4 = $("#ninja4");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=Az5J_EkhYCY&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=Az5J_EkhYCY&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -277,7 +277,7 @@ fetch(
 
 var simplified3 = $("#simplified3");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=XF1_MlZ5l6M&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=XF1_MlZ5l6M&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -292,7 +292,7 @@ fetch(
 
 var colorcode2 = $("#colorcode2");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=ubw2hdQIl4E&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=ubw2hdQIl4E&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -304,7 +304,7 @@ fetch(
 
 var blondiebytes = $("#blondiebytes");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=JjIvF0yikGU&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=JjIvF0yikGU&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
@@ -319,7 +319,7 @@ fetch(
 
 var bless = $("#bless");
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=2n5EBLBHx-A&key=AIzaSyDlQmEuNWa7_szWM7C1tqYStAscXgQ4dL0"
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=2n5EBLBHx-A&key=AIzaSyBzS2A1Ecw88g0AHeGomp6Td1sWTqdUAWw"
 )
   .then(function (response) {
     return response.json();
