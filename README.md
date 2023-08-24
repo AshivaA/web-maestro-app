@@ -8,7 +8,7 @@ webMaestro.
 
 \*\* Elevator Pitch:
 We have come up with an ingenious
-web product , which in itself a
+web product , which in itself, is a
 solution to the problem that most
 bootcamp students face, having to
 rack their brains for relevant after
@@ -18,8 +18,8 @@ as visual learning, etc, as well as
 incorporates a note-taking section
 while learning.
 This is a Software App solution that
-presents web links to for students to
-be able to add learning resources
+presents web links for students to
+be able to reference learning resources
 and tutorial videos from Youtube and
 Reddit as recommended by the TAs
 and organized based on subject. It
@@ -35,7 +35,7 @@ materials on the web.
 
 ## Link to deployed application
     https://ashivaa.github.io/web-maestro-app/  
----
+
 
 ## Table of Contents
 
@@ -117,13 +117,15 @@ materials on the web.
 
 ## 6. Screenshots of webpage
 
-![](./assets/images/google-search-pic.png "my image")
+![](./assets/images/deployed%20page.png "my image")
 
-![](./assets/images/search-button.png "my image")
 ![](./assets/images/WEB%20MAESTRO.png "my image")
-
 ![](./assets/images/youtube.png "my image")
-![](./assets/images/notes-added.png "my image")
+![](./assets/images/search-button.png "my image")
+
+
+
+
 
 ## APIs used
 
