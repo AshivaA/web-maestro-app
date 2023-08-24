@@ -30,7 +30,7 @@ body {
   text-align: center;
 }
 
-.web-m{
+.web-m {
   color: rgb(16, 97, 20);
 }
 
@@ -42,12 +42,12 @@ body {
   margin-bottom: 50px;
 }
 
-.row-hero{
+.row-hero {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.hero-body{
+.hero-body {
   background-image: url(../../assets/images/homepage-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,7 +57,7 @@ body {
   background-color: rgba(0, 0, 255, 0.7);
 }
 
-.learning-style-container{
+.learning-style-container {
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -67,12 +67,12 @@ body {
   text-decoration: underline;
 }
 
-.learning-style{
+.learning-style {
   color: black;
   margin-right: 40px;
 }
 
-h4{
+h4 {
   margin-top: 20px;
 }
 
@@ -102,4 +102,3 @@ footer {
     padding: 10px;
   }
 }
-
