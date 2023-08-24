@@ -29,6 +29,9 @@ resources while taking away the
 stress of searching endlessly for
 materials on the web.
 
+![web-mastro](https://github.com/AshivaA/web-maestro-app/assets/136107176/669fe8e1-31ea-40a2-a1f7-6db0bec53d73)
+
+
 ## Link to github repository
 
     https://github.com/AshivaA/web-maestro-app
