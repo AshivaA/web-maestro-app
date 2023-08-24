@@ -34,7 +34,7 @@ materials on the web.
     https://github.com/AshivaA/web-maestro-app
 
 ## Link to deployed application
-
+    https://ashivaa.github.io/web-maestro-app/  
 ---
 
 ## Table of Contents
